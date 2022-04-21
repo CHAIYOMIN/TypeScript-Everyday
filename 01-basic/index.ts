@@ -23,3 +23,21 @@ hello = 123;
 //declare let name
 // 如何在typescript中解决 error TS2451: Cannot redeclare block-scoped variable 'name'
 // https://www.jianshu.com/p/78268bd9af0a 
+
+
+// index.ts
+
+let info = {
+    name: 'Maxwell',
+    age: 20,
+    hasPet: false,
+  };
+
+  let someone = {
+    knows: undefined,
+    identity: null
+  };
+
+let info2 = {
+    info, person : "people"
+};
